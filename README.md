@@ -1,4 +1,5 @@
-# no licence, ***** that ***** *** ************* ****.
+# txtfx by n01
+
 this program will only support 256 colour enabled terminals.
 
 ## TERM types that support 256 colours

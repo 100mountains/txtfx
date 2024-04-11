@@ -1,0 +1,5 @@
+# Ignore the work directory
+work/
+
+# Ignore the virtual environment directory
+myenv/

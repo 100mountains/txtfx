@@ -115,7 +115,7 @@ No Reverse      ::27
 @typefx2       : default typing effect - left to right type
 @typefx3       : matrix effect
 @typefx4       : shuffle matrix effect
-@typefx5       : caps matrix effect - nice one - have to work out colours for this
+@typefx5       : caps matrix effect - have to work out colours for this
 @typefx6       : word matrix effect
 
 @FPS[20]       : frames per sec override - spinner must be fps divided by summat eventually 

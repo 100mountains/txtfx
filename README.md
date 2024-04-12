@@ -1,6 +1,41 @@
 # txtfx by n01
 
-this program will only support 256 colour enabled terminals.
+this program will only support 256 colour enabled terminals. 
+- Something about the "The Jayne Mansfield Lobster Problem"
+- *all swearing removed from code* bonus
+- it does something with ANSI text in the terminal, you figure it out...
+
+## Commands:
+```
+@x;y           : go to x,y
+@;y            : go to y             # dunt werk yet
+@              : go to 1;1
+@@             : clear screen and go to 1;1
+
+@[colour]      : set foreground colour
+^[colour]      : set background colour
+@C[0-255]      : set 256 colour number
+
+@rndcase       : set random case - calling twice toggles
+@txtcycle      : set random colour cycling for text - calling twice toggles
+@spincycle     : set random colour cycling for spinner - calling twice toggles
+
+@[b1]          : set bullet point 1-3
+@[1]           : spinner on spinner type 1-8
+
+@cursoron      : cursor visible 
+@cursoroff     : cursor invisible
+
+@typefx0       : no typing effect
+@typefx1       : word by word typing effect
+@typefx2       : default typing effect - left to right type
+@typefx3       : matrix effect
+@typefx4       : shuffle matrix effect
+@typefx5       : caps matrix effect - have to work out colours for this
+@typefx6       : word matrix effect
+
+@FPS[20]       : frames per sec override - spinner must be fps divided by summat eventually 
+```
 
 ## TERM types that support 256 colours
 - Eterm-256color
@@ -88,38 +123,6 @@ No Reverse      ::27
 64 		ideogram stress marking 	hardly ever supported
 90-99 	Set foreground color, high intensity 	aixterm (not in standard)
 100-109 	Set background color, high intensity 	aixterm (not in standard)
-```
-
-## Commands:
-```
-@x;y           : go to x,y
-@;y            : go to y             # dunt werk yet
-@              : go to 1;1
-@@             : clear screen and go to 1;1
-
-@[colour]      : set foreground colour
-^[colour]      : set background colour
-@C[0-255]      : set 256 colour number
-
-@rndcase       : set random case - calling twice toggles
-@txtcycle      : set random colour cycling for text - calling twice toggles
-@spincycle     : set random colour cycling for spinner - calling twice toggles
-
-@[b1]          : set bullet point 1-3
-@[1]           : spinner on spinner type 1-8
-
-@cursoron      : cursor visible 
-@cursoroff     : cursor invisible
-
-@typefx0       : no typing effect
-@typefx1       : word by word typing effect
-@typefx2       : default typing effect - left to right type
-@typefx3       : matrix effect
-@typefx4       : shuffle matrix effect
-@typefx5       : caps matrix effect - have to work out colours for this
-@typefx6       : word matrix effect
-
-@FPS[20]       : frames per sec override - spinner must be fps divided by summat eventually 
 ```
 
 ## Colours:

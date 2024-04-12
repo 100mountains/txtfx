@@ -138,4 +138,12 @@ No Reverse      ::27
   - https://en.wikipedia.org/wiki/ANSI_escape_code # excellent detailed list
   - https://en.wikipedia.org/wiki/Control_character
   - www.stackoverflow.com # brilliant resource for condescending programmers and overzealous mods.
+
+## Example Usage
+
+The `coherent_examples` directory provides a set of example files designed to demonstrate the various text effects available in txtfx. Each file showcases a different type of text effect, making it easier for users to understand how to utilize the library in their projects.
+
+- **txtfx_type1_example.py**: Demonstrates the '@typefx1' effect, showing word by word typing effect with a rainbow color scheme.
+- **txtfx_type2_example.py**: Showcases the '@typefx2' effect, highlighting a bold text effect.
+- **txtfx_type3_example.py**: Features the '@spincycle' effect, illustrating a spinning text effect with green color.
 ```

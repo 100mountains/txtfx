@@ -14,6 +14,7 @@
 # Repository Structure
 ```
 .
+├── ./AI_ONLY.md
 ├── ./colour_tests
 │   ├── ./colour_tests/ansicolours.sh
 │   ├── ./colour_tests/better_colourtest.pl
@@ -21,18 +22,18 @@
 │   ├── ./colour_tests/newline_test.py
 │   └── ./colour_tests/test.sh
 ├── ./examples
-│   ├── ./examples/coherent_examples.py
+│   ├── ./examples/_OLDONE.py
+│   ├── ./examples/organic_mind_beams.py
+│   ├── ./examples/random_boring.py
+│   ├── ./examples/random_INSANE_MONKEY_CHIN.py
 │   ├── ./examples/test_main.py
-│   ├── ./examples/typefx1 copy 2.py
-│   ├── ./examples/typefx1 copy 3.py
-│   ├── ./examples/typefx1 copy 4.py
-│   ├── ./examples/typefx1 copy 5.py
 │   ├── ./examples/typefx1.py
 │   ├── ./examples/typefx2.py
-│   ├── ./examples/var1.py
-│   ├── ./examples/video_test1.py
-│   ├── ./examples/video_test2.py
-│   └── ./examples/video_test.py
+│   ├── ./examples/typefx3.py
+│   ├── ./examples/typefx4.py
+│   ├── ./examples/typefx5.py
+│   ├── ./examples/typefx6.py
+│   └── ./examples/var1.py
 ├── ./.github
 │   └── ./.github/ISSUE_TEMPLATE
 │       └── ./.github/ISSUE_TEMPLATE/sweep-template.yml
@@ -101,11 +102,16 @@
 │   └── ./research/zen-terminal-escape-codes.html
 ├── ./rgb2ansi.py
 ├── ./rgb2ansi.py,.ai
+├── ./ruby
+│   ├── ./ruby/color_test.rb
+│   ├── ./ruby/lol.rb
+│   ├── ./ruby/rainbow-output.rb
+│   └── ./ruby/README.md
 ├── ./sweep.yaml
 ├── ./txtFX.py
 └── ./txtFX.py.ai
 
-13 directories, 77 files
+14 directories, 82 files
 ```
 - Point a
 - Point b

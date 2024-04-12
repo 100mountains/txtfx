@@ -10,7 +10,7 @@ if __name__ == '__main__':
 	
 
 	
-	txt.eko('@typefx6 @FPS[15] @rndcase @red what the @green fuck, \n @magenta @rndcase MANY a day did i @yellow dream about @rndcase Laura... @blue @rndcase this is a great \n @rndcase big long @white test @grey string to see @cyan whats going on \n here...')
+	txt.eko('@typefx6 @FPS[15] @rndcase @red what the @green heeelll, \n @magenta @rndcase MANY a day did i @yellow dream about @rndcase Laura... @blue @rndcase this is a great \n @rndcase big long @white test @grey string to see @cyan whats going on \n here...')
 
 
 	txt.eko('@typefx6 @[8]')
@@ -32,60 +32,45 @@ if __name__ == '__main__':
 
 	# demo
 	txt.eko('@3;4 @typefx6 @[1] MANY a day did i dream about Laura...')
-	
-
 
 	txt.eko('@typefx5 @[1] typefx5 MANY a day did i dream about Laura...')
 	
 	time.sleep(5)
 	
-
 	txt.eko('@typefx4 @[1] typefx4 MANY a day did i dream about Laura...')
 	
 	time.sleep(5)
-	
 
 	txt.eko('@typefx3 @[1] typefx3 MANY a day did i dream about Laura...')
 	
 	time.sleep(5)
-	
 
 	txt.eko('@typefx2 @[1] typefx2 normal left to right type effect LauLau...')
 	
 	time.sleep(5)
-	
 
 	txt.eko('@typefx1 @[1] typefx1 word by word a day did i dream about Laura...')
 	
 	time.sleep(5)
-	
-	
 
 	txt.eko('@txtcycle @spincycle @[8] @green this text has a colour cycling effect @txtcycle which can be @green turned off halfway through the string')
 	
 	time.sleep(5)
 	
-	
-
 	txt.eko('@spincycle @[1] @green this @blue text @blue has @cyan a @yellow colour cycling @green spinner effect, the default typing effect, uses threads and a class ^grey and is programmed by me')
 	
 	time.sleep(5)
 
-
 	txt.eko('@txtcycle @spincycle @[1] @green this text has a colour cycling @green effect as well @txtcycle which can be @green turned off halfway through the string')
 	
 	time.sleep(5)
-
 
 	# clears screen
 	txt.eko('@@').start()
 
 	for x in range(1,9):
 				txt.eko('@[%d] @grey spinner @red effect @blue number @yellow %d'%(x,x))		
-				time.sleep(2)
-				
-	
-	
+				time.sleep(2)			
 
 	# clears screen
 	txt.eko('@@').start()

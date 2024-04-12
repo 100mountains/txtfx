@@ -6,6 +6,13 @@ rules:
   - "All new business logic should have corresponding unit tests."
   - "Refactor large functions to be more modular."
   - "Add docstrings to all functions and file headers."
+  - "Ensure consistent formatting and adherence to PEP8 guidelines."
+  - "Use meaningful variable and function names following the project's naming conventions."
+  - "Handle edge cases and potential errors gracefully."
+  - "Optimize code for performance, especially in critical paths."
+  - "Maintain clear separation of concerns and follow the project's architecture."
+  - "Write concise and explanatory comments for complex or non-obvious code segments."
+  - "Keep the user interface intuitive and responsive."
 
 # This is the branch that Sweep will develop from and make pull requests to. Most people use 'main' or 'master' but some users also use 'dev' or 'staging'.
 branch: 'main'
@@ -18,7 +25,7 @@ gha_enabled: True
 # Example:
 #
 # description: sweepai/sweep is a python project. The main api endpoints are in sweepai/api.py. Write code that adheres to PEP8.
-description: ''
+description: 'This project is a Python-based text effects library called txtFX. The files "AI_ONLY.md" and "*.ai" are all description files designed for you to understand the application. It provides various text animations, formatting options, and color support for terminal output. The main functionality is implemented in the txtFX.py file, which defines the txtfx class. The project uses ANSI escape sequences for text formatting and color manipulation. It also includes a manager script (manager.py) for handling terminal compatibility and launching the txtFX thread. The rgb2ansi.py file contains utility functions for converting between RGB color values and ANSI color codes. The project heavily relies on string manipulation, regular expressions, and threading for creating dynamic and visually appealing text effects in the terminal.'
 
 # This sets whether to create pull requests as drafts. If this is set to True, then all pull requests will be created as drafts and GitHub Actions will not be triggered.
 draft: False

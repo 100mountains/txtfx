@@ -1,0 +1,30 @@
+"manager.py" serves as a manager for the txtFX program. The script handles terminal compatibility checks, debugging, and launching the txtFX thread.
+
+The script imports several modules:
+- `sys` for accessing stdout
+- `txtFX` (aliased as `t`) for the main txtFX functionality
+- `time` for timing and delays
+- `re` for regular expressions
+- `subprocess` for debugging purposes
+- `os` for accessing environment variables
+- `threading` for multi-threading support
+
+The script defines several variables and functions:
+- `term_types` list containing supported terminal types
+- `terminaltype` variable to store the current terminal type
+- `DEBUG` flag for enabling debug output
+- `debug` function for writing debug output to a file
+- `termtype` function for checking terminal compatibility
+- `eko` function for launching the txtFX thread
+
+The `debug` function writes the provided `txt` to a file named "output" if the `DEBUG` flag is set to 'ON'. It also flushes the file to ensure immediate writing.
+
+The `termtype` function retrieves the current terminal type from the `TERM` environment variable and checks if it is supported by comparing it against the `term_types` list. If the terminal type is not supported, it prints an error message along with the current terminal type and a list of supported terminal types, and then exits the script.
+
+The `eko` function is the main entry point for launching the txtFX thread. It takes an `eko` parameter, which is passed to the `txtfx` constructor. The function first calls the `termtype` function to check terminal compatibility. If the terminal is supported, it creates an instance of the `txtfx` class from the `txtFX` module, passing the `eko` parameter, and starts the thread.
+
+If the script is run directly (not imported as a module), it checks the terminal type by calling the `termtype` function.
+
+The script also includes a section for debugging purposes. If the `DEBUG` flag is set to 'ON', it opens a file named "output" for writing and launches an xterm window with specific geometry and title to display the debug output using the `tail` command.
+
+Overall, this script acts as a manager for the txtFX program, handling terminal compatibility checks, debugging, and launching the txtFX thread with the provided `eko` parameter.

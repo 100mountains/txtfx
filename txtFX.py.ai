@@ -1,0 +1,52 @@
+
+"txtFX.py" which is part of a project called "txtFX". The script is a main part of the txtFX program, handling text effects, animations, and threading.
+
+The script imports several modules including:
+- `rgb2ansi` for color space conversions
+- `sys` for accessing stdout
+- `random` for random number generation
+- `math` for mathematical functions
+- `string` for string operations
+- `time` for timing and delays
+- `threading` for multi-threading support
+- `re` for regular expressions
+- `subprocess` for debugging purposes
+
+The script defines several constants and variables:
+- `DEBUG` flag for enabling debug output
+- ANSI escape sequences for text formatting
+- `attrs` dictionary for text attributes
+- `colours` dictionary for color names and values
+- `keywords` list for special effect keywords
+- `bpoints` tuple for bullet point characters
+- `spinners` tuple for spinner animation characters
+- `colist` and `colist1` for color cycling
+
+The main class `txtfx` is defined as a subclass of `threading.Thread`. It contains various methods for text effects, animations, and threading management. Some of the key methods include:
+- `__init__` for initializing the `txtfx` instance with default values
+- `timer` for managing animation timing
+- `debug` for writing debug output
+- `esc_convert` for converting escape sequences and commands
+- `process` for processing input lines and preparing data structures
+- `anim_setup` for setting up animation parameters
+- `do_newline` for handling newline characters
+- `do_wordspace` for handling word spaces
+- `txt_cycle` and `rainbow_cycle` for color cycling effects
+- `invert_caps` for inverting capitalization
+- `shuffle` for shuffling characters
+- `wordmatrix`, `capsmatrix`, `shufflematrix`, and `matrix` for various matrix-style animations
+- `run` for the main thread execution loop
+
+The script defines several text effects and animations, including:
+- Word matrix effect (`typefx 6`)
+- Caps matrix effect (`typefx 5`)
+- Shuffle matrix effect (`typefx 4`)
+- Matrix effect (`typefx 3`)
+- Default typing effect (`typefx 2`)
+- Word-by-word typing effect (`typefx 1`)
+
+The script also supports various text formatting options such as colors, attributes (bold, italic, underline, etc.), and positioning.
+
+The `run` method is the main entry point for the `txtfx` thread. It processes the input lines, sets up animations, and executes the appropriate text effects based on the specified `typefx` value.
+
+If the script is run directly (not imported as a module), it prints "You're doing it WRONG!" to indicate that it should be used as a module rather than executed directly.

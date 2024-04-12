@@ -136,8 +136,8 @@ class txtfx(threading.Thread):
     def thread_debug(self):
             
         self.debug ("threading enumerate :%s"%threading.enumerate() )
-        self.debug ("current thread :%s"%threading.currentThread() )
-        self.debug ( "thread count :%s"%threading.activeCount() )    
+        self.debug ("current thread :%s"%threading.current_thread() )
+        self.debug ( "thread count :%s"%threading.active_count() )    
                 
 
     def set_cursor(self):

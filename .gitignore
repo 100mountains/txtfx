@@ -3,3 +3,5 @@ work/
 
 # Ignore the virtual environment directory
 myenv/
+
+__pycache__/

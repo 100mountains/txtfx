@@ -50,13 +50,9 @@ if __name__ == '__main__':
 		much shorter string \n \
 		again, a little bit longer string than that....')
 		
-	txt.eko ('@typefx0 @7;7 @rainbow this stuff will appear immediately, the tool of choice is a scuffle or stirrup hoe, which you push and pull across the ground to sever\n \
+	txt.eko ('@typefx0 @rainbow this stuff will appear immediately, the tool of choice is a scuffle or stirrup hoe, which you push and pull across the ground to sever\n \
 		much shorter string \n \
 		again, a little bit longer string than that....')
-
-
-	
-	
 	
 	txt.eko('@typefx6 @FPS[15] @rndcase @red what the @green, \n @magenta @rndcase MANY a day did i @yellow dream about @rndcase Laura... @blue @rndcase this is a great \n @rndcase big long @white test @grey string to see @cyan whats going on \n here...')
 

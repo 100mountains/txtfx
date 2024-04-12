@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import sys
-sys.path.append('../../')
-import txtFX as txt
+sys.path.append('../')
+import manager as txt
 import time
 
 def demonstrate_typefx1():
@@ -12,19 +12,19 @@ def demonstrate_typefx1():
     effect.stop()
 
 def demonstrate_typefx2():
-    effect = txt.txtFX('@typefx2 @bold "Much shorter string with bold effect."')
+    effect = txt.eko('@typefx2 @bold "Much shorter string with bold effect."')
     effect.start()
     time.sleep(5)
     effect.stop()
 
 def demonstrate_spin_cycle():
-    effect = txt.txtFX('@spincycle @[1] @green "This text has a spinning effect with green color."')
+    effect = txt.eko('@spincycle @[1] @green "This text has a spinning effect with green color."')
     effect.start()
     time.sleep(5)
     effect.stop()
 
 def demonstrate_txt_cycle():
-    effect = txt.txtFX('@txtcycle @spincycle @[8] @green "This text has a colour cycling effect."')
+    effect = txt.eko('@txtcycle @spincycle @[8] @green "This text has a colour cycling effect."')
     effect.start()
     time.sleep(5)
     effect.stop()

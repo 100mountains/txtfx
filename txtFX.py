@@ -55,8 +55,8 @@ class txtfx(threading.Thread):
         self._stop = False
         self.name="_txtfx_"
         
-        self.debug ("current thread :%s"%threading.currentThread() )
-        self.debug ( "thread count :%s"%threading.activeCount() )    
+        self.debug ("current thread :%s"%threading.current_thread() )
+        self.debug ( "thread count :%s"%threading.active_count() )    
         
         # defaults
         self.arg = arg

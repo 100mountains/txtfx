@@ -3,16 +3,13 @@
 
 # This setting contains a list of rules that Sweep will check for. If any of these rules are broken in a new commit, Sweep will create an pull request to fix the broken rule.
 rules:
-  - "All new business logic should have corresponding unit tests."
   - "Refactor large functions to be more modular."
-  - "Add docstrings to all functions and file headers."
   - "Ensure consistent formatting and adherence to PEP8 guidelines."
   - "Use meaningful variable and function names following the project's naming conventions."
   - "Handle edge cases and potential errors gracefully."
   - "Optimize code for performance, especially in critical paths."
   - "Maintain clear separation of concerns and follow the project's architecture."
   - "Write concise and explanatory comments for complex or non-obvious code segments."
-  - "Keep the user interface intuitive and responsive."
 
 # This is the branch that Sweep will develop from and make pull requests to. Most people use 'main' or 'master' but some users also use 'dev' or 'staging'.
 branch: 'main'

@@ -1,5 +1,7 @@
 # txtfx by n01
 
+this nearly worked at the time, it might work more in the future if one of you leechers that cloned it fixed something :)
+
 this program will only support 256 colour enabled terminals. 
 - Something about the "The Jayne Mansfield Lobster Problem"
 - *all swearing removed from code* bonus
